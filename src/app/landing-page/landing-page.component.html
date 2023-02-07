@@ -1,14 +1,14 @@
 <div>
   <app-header class="absolute w-full z-10"></app-header>
-  <img src="../../assets/bg-4.jpg" class="bg-img" alt="" />
+  <img id="home" src="../../assets/bg-4.jpg" class="bg-img" alt="" />
   <div
     class="slogan z-20 text-lg sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl left-8 md:left-10 text-white font-bold absolute"
   >
     <p>Cookie and Coffee <br />for every mood</p>
   </div>
-  <div class="mt-5">
+  <div id="menu" class="mt-5">
     <div
-      class="mb-5 flex justify-center flex-column font-bold sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl"
+      class="mb-5 flex justify-center font-bold sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl"
     >
       OUR MENU
     </div>
@@ -23,7 +23,7 @@
     >
       CONTACT US
     </div> -->
-    <button>ORDER NOW</button>
+    <button (click)="openModal()">ORDER NOW</button>
 
     <!-- <div
       class="mb-5 flex justify-center sm:text-xl lg:text-2xl xl:text-3xl 2xl:text-5xl"
@@ -41,9 +41,9 @@
     </div> -->
   </div>
 
-  <div class="w-full mt-5 mb-10">
+  <div id="contact-us" class="w-full mt-5 mb-10">
     <div
-      class="mb-5 flex justify-center flex-column font-bold sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl"
+      class="mb-5 flex justify-center font-bold sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl"
     >
       CONTACT US
     </div>
